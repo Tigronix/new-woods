@@ -1,0 +1,87 @@
+// global-styles
+button {
+  background: none;
+  border: none;
+}
+
+.section-padding {
+  padding: 50px 0!important;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: normal;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+// offcanvas
+.offcanvas {
+  &-menu {
+    &.active {
+      right: 0;
+      visibility: visible;
+    }
+  }
+
+  &-overlay {
+    &.active {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+// sp-module
+.sp-module {
+  ul {
+    li {
+      a {
+        &:before {
+          display: inline-block;
+          content: '';
+          width: 5px;
+          height: 9px;
+          background: url("../img/chevron-right--hover.png") center no-repeat;
+          background-size: 5px 9px;
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+}
+
+// sppb
+.sppb {
+  &-icon {
+    font-size: 36px;
+    color: #2bb673;
+  }
+
+  &-carousel-pro-text h2, &-carousel-pro-text .dlhtfs {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  &-carousel-inner {
+    padding: 0 30px;
+  }
+
+  &-addon-title {
+    @include atMobile{
+      font-size: 30px!important;
+      line-height: normal!important;
+    };
+  }
+}
+
+// js-map
+.js-map {
+  height: 400px;
+
+  & > * {
+    height: 100%!important;
+  }
+}

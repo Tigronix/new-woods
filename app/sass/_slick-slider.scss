@@ -1,0 +1,7 @@
+.slick-slider {
+  @include atMobile{
+    .sppb-img-reponsive {
+      margin-top: 30px;
+    }
+  };
+}
