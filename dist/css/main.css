@@ -26609,6 +26609,22 @@ h1 {
   .js-map > * {
     height: 100% !important; }
 
+@media (max-width: 1024px) {
+  .post-format {
+    display: none; } }
+
+@media (max-width: 1024px) {
+  .price-wrap {
+    overflow: auto; } }
+
+@media (max-width: 1024px) {
+  .price {
+    width: 700px; }
+    .price td, .price th {
+      font-size: 16px !important; }
+      .price td span, .price th span {
+        font-size: 16px !important; } }
+
 .slick-arrow {
   font-size: 24px;
   color: #fff;
@@ -26633,3 +26649,178 @@ h1 {
 @media (max-width: 1024px) {
   .slick-slider .sppb-img-reponsive {
     margin-top: 30px; } }
+
+.egais h1 {
+  color: #542e16;
+  font-weight: bold;
+  font-family: 'Arial';
+  margin-bottom: 16px;
+  font-size: 23px;
+  line-height: 1.3; }
+
+.egais__text-grey {
+  font-size: 14px;
+  color: #545454;
+  line-height: 1.4; }
+
+.egais__img-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  position: relative;
+  margin-bottom: 30px;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+.egais__img-block-desc {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+
+.egais__img-block-img {
+  width: 140px;
+  margin-left: 30px; }
+
+.egais__text-black {
+  font-size: 16px;
+  color: #2d2d2d; }
+
+.egais a {
+  font-size: 16px;
+  color: #de9829;
+  text-decoration: underline; }
+
+.egais h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #545454;
+  margin-bottom: 20px; }
+
+.egais__products {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin: -10px;
+  padding-left: 30px;
+  max-width: 900px; }
+  @media (max-width: 1024px) {
+    .egais__products {
+      display: block;
+      padding: 0px;
+      margin: 0; } }
+
+.egais__product {
+  -webkit-box-shadow: 0 0 3px 0 #aaa;
+          box-shadow: 0 0 3px 0 #aaa;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  width: 40%;
+  margin: 10px;
+  padding: 15px 30px; }
+  @media (max-width: 1024px) {
+    .egais__product {
+      width: 100%;
+      margin: 20px 0; } }
+
+.egais__list {
+  padding-left: 0px; }
+
+.egais__product-header {
+  margin-left: -30px;
+  border: 1px solid #000;
+  border-width: 1px 1px 1px 0;
+  font-size: 16px;
+  padding: 7px 15px;
+  -webkit-border-radius: 0 10px 10px 0;
+          border-radius: 0 10px 10px 0;
+  -webkit-box-shadow: 1px 0 4px 0 #ccc;
+          box-shadow: 1px 0 4px 0 #ccc;
+  color: #230607;
+  margin-bottom: 20px; }
+  .egais__product-header--brown {
+    border-color: #f9a922; }
+  .egais__product-header--green {
+    border-color: #5cce00; }
+
+.egais__li {
+  font-size: 14px; }
+
+.egais__products-desc {
+  padding-left: 40px;
+  margin-top: 25px;
+  font-size: 10pt; }
+
+.egais__about {
+  margin: 30px 0;
+  -webkit-box-shadow: 0 0 3px 0 #aaa;
+          box-shadow: 0 0 3px 0 #aaa;
+  padding: 5px 20px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px; }
+
+.egais__about-header {
+  margin: 18px 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #930;
+  text-align: center; }
+
+.egais__about-list {
+  list-style: none;
+  counter-reset: my-counter; }
+  @media (max-width: 1024px) {
+    .egais__about-list {
+      padding-left: 0; } }
+
+@media (max-width: 1024px) {
+  .egais__penalty-list {
+    padding-left: 15px; } }
+
+.egais__about-li {
+  counter-increment: my-counter;
+  position: relative;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #353535;
+  margin-bottom: 20px; }
+  .egais__about-li:last-child {
+    margin-bottom: 0; }
+  .egais__about-li:before {
+    content: counter(my-counter) ". ";
+    color: red;
+    font-size: 18px;
+    color: #df9923;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: -1px; }
+
+.egais__dashed {
+  display: block;
+  width: 86.23087621696801%;
+  bottom: 0;
+  border: 1px dashed #de9829;
+  margin: 25px auto;
+  border-width: 1px 0 0 0; }
+
+.egais__warning {
+  background: url(../img/alert.png) no-repeat left center;
+  padding-left: 50px;
+  font-size: 16px;
+  color: #2d2d2d; }
+  @media (max-width: 1024px) {
+    .egais__warning {
+      padding-top: 50px;
+      padding-left: 0;
+      background-position: top left; } }
